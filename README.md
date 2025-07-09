@@ -4,13 +4,6 @@ A sleek, responsive personal portfolio website built with React to showcase abou
 
 ---
 
-## 🚀 Live Demo
-
-Add your deployed website link here (e.g., Vercel, Netlify, GitHub Pages):  
-`website url`
-
----
-
 ## 🛠 Features
 
 - 🚀 **Hero Section**: Intro/banner with name, title, and short bio.
@@ -27,10 +20,10 @@ Add your deployed website link here (e.g., Vercel, Netlify, GitHub Pages):
 | Layer        | Technology             |
 |--------------|------------------------|
 | Framework    | React.js (Vite)        |
-| Styling      | CSS / Tailwind (based on your setup) |
-| Icons        | React Icons (FontAwesome, etc.) |
+| Styling      | CSS / Tailwind         |
+| Icons        | React Icons, FontAwesome, SVG, etc.  |
 | Routing      | React Router           |
-| Deployment   | Vercel / Netlify / GitHub Pages |
+| Deployment   | Vercel                 |
 
 ---
 
@@ -105,22 +98,7 @@ react-portfolio/
 
 ## 📦 Deployment
 
-### GitHub Pages
-- Add this to `package.json`:
-  ```json
-  "homepage": "https://<username>.github.io/<repo-name>",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  }
-  ```
-- Deploy:
-  ```bash
-  npm install --save-dev gh-pages
-  npm run deploy
-  ```
-
-### Vercel / Netlify
+### Vercel 
 - Connect your repo to the platform.
 - Use:
   - **Build command**: `npm run build`
